@@ -1,0 +1,56 @@
+html, body {
+  margin:auto;  
+  padding:0;
+  overflow:hidden;
+  min-width: 600px;
+  width: 80%;
+}
+
+
+.page {
+  height:100%;
+  width:100%;  
+}
+
+.textbox {
+  margin-left:110px;
+}
+
+.header {
+  text-align:center;
+  background:#66CC66;
+  font-size:80px;
+  font-family: 'Days One', sans-serif;
+  color:#484848;
+}
+
+.content {
+  padding:100px;
+  font-size:40px;
+  font-family: 'Days One', sans-serif;
+  color:silver;
+  background:#484848;
+  height:1000px;
+}
+
+.nav {
+  background:gray;
+  width:50px;
+  height:100%;
+  text-align:center;
+  padding: 30px 30px;
+  position:absolute;
+  top:0;
+  left:0;
+  border-right: 5px solid #66CC66;
+}
+
+div[id^=i-]{
+  margin:60px 0px;
+}
+
+div[id^=i-lab]{
+  top:15px;
+}
+
+

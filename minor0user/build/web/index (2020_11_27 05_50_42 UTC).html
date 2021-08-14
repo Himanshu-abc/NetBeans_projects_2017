@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <form method="post" action="registeration.jsp">
+            <center>
+            <table border="1" width="30%" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th colspan="2">Register Students Here</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   
+                    <tr>
+                        <td>User Name</td>
+                        <td><input type="text" name="username" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="password" value="" /></td>
+                    </tr>
+                     <tr>
+                        <td>enrollment</td>
+                        <td><input type="text" name="enrollment" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>department</td>
+                        <td><input type="radio" name="dept">computer science <br> 
+                            <input type="radio" name="dept">mechanical engineering<br>
+                            <input type="radio" name="dept">civil engineering<br>
+                            <input type="radio" name="dept">chemical engineering
+                       </td>
+                    </tr>              
+                     <tr>
+                        <td>parent mobile number</td>
+                        <td><input type="text" name="pmo" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>student mobile number</td>
+                        <td><input type="text" name="smo" value="" /></td>
+                    </tr> 
+                    
+                    <tr>
+                        <td><input type="reset" value="Reset" /></td>
+                        <td><input type="submit" value="Submit" /></td>
+                       
+                    </tr>
+                   
+                </tbody>
+            </table>
+            </center>
+        </form>
+           
+         Upload Students Pic  
+         <form action="profilecontroller.jsp" method="post" enctype="multipart/form-data">
+         <input type="file" name="picture">
+         <input type="submit" value="save">
+         </form>     
+        
+        
+    </body>
+</html>

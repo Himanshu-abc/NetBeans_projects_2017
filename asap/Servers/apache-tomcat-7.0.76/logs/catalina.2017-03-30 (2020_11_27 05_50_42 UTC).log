@@ -1,0 +1,558 @@
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.76
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 9 2017 13:49:01 UTC
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.76.0
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Softwares\apache-tomcat-7.0.76\conf\logging.properties
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Softwares\apache-tomcat-7.0.76\endorsed
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Softwares\apache-tomcat-7.0.76\temp
+Mar 30, 2017 8:32:10 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.net.preferIPv4Stack=true
+Mar 30, 2017 8:32:10 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+Mar 30, 2017 8:32:10 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 30, 2017 8:32:11 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+Mar 30, 2017 8:32:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:32:11 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:32:11 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2493 ms
+Mar 30, 2017 8:32:11 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 30, 2017 8:32:11 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.76
+Mar 30, 2017 8:32:12 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs
+Mar 30, 2017 8:32:13 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [107] milliseconds.
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs has finished in 1,035 ms
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples has finished in 499 ms
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager has finished in 98 ms
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager has finished in 92 ms
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT has finished in 73 ms
+Mar 30, 2017 8:32:13 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:32:13 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:32:13 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2037 ms
+Mar 30, 2017 8:35:51 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 30, 2017 8:35:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:35:51 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:35:51 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 30, 2017 8:35:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:35:51 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:35:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:35:51 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.76
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 9 2017 13:49:01 UTC
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.76.0
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Softwares\apache-tomcat-7.0.76\conf\logging.properties
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Softwares\apache-tomcat-7.0.76\endorsed
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Softwares\apache-tomcat-7.0.76\temp
+Mar 30, 2017 8:35:55 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.net.preferIPv4Stack=true
+Mar 30, 2017 8:35:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+Mar 30, 2017 8:35:55 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 30, 2017 8:35:56 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+Mar 30, 2017 8:35:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:35:56 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:35:56 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1509 ms
+Mar 30, 2017 8:35:56 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 30, 2017 8:35:56 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.76
+Mar 30, 2017 8:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs
+Mar 30, 2017 8:35:56 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [102] milliseconds.
+Mar 30, 2017 8:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs has finished in 456 ms
+Mar 30, 2017 8:35:56 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples has finished in 398 ms
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager has finished in 108 ms
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager has finished in 84 ms
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT has finished in 53 ms
+Mar 30, 2017 8:35:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 8:35:57 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 8:35:57 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1174 ms
+Mar 30, 2017 8:43:26 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml
+Mar 30, 2017 8:43:26 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml has finished in 121 ms
+Mar 30, 2017 8:43:26 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]] after start() had already been called. The second call will be ignored.
+Mar 30, 2017 8:51:33 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] has started
+Mar 30, 2017 8:51:34 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 8:51:34 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] is completed
+Mar 30, 2017 8:52:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] has started
+Mar 30, 2017 8:52:01 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 8:52:01 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] is completed
+Mar 30, 2017 9:24:23 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] has started
+Mar 30, 2017 9:24:23 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/WebApplication4] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Mar 30, 2017 9:24:23 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/WebApplication4] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak.
+Mar 30, 2017 9:24:24 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 9:24:24 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] is completed
+Mar 30, 2017 9:24:27 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] has started
+Mar 30, 2017 9:24:28 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 9:24:28 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] is completed
+Mar 30, 2017 9:25:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] has started
+Mar 30, 2017 9:25:12 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 9:25:12 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] is completed
+Mar 30, 2017 9:25:20 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] has started
+Mar 30, 2017 9:25:20 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 9:25:20 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/WebApplication4] is completed
+Mar 30, 2017 9:35:31 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 30, 2017 9:35:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:35:31 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:35:31 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 30, 2017 9:35:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:35:31 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:35:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:35:31 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.76
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 9 2017 13:49:01 UTC
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.76.0
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Softwares\apache-tomcat-7.0.76\conf\logging.properties
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Softwares\apache-tomcat-7.0.76\endorsed
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Softwares\apache-tomcat-7.0.76\temp
+Mar 30, 2017 9:43:32 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.net.preferIPv4Stack=true
+Mar 30, 2017 9:43:32 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+Mar 30, 2017 9:43:32 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 30, 2017 9:43:33 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+Mar 30, 2017 9:43:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2183 ms
+Mar 30, 2017 9:43:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 30, 2017 9:43:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.76
+Mar 30, 2017 9:43:34 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml
+Mar 30, 2017 9:43:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 9:43:35 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml has finished in 1,201 ms
+Mar 30, 2017 9:43:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs
+Mar 30, 2017 9:43:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs has finished in 163 ms
+Mar 30, 2017 9:43:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples
+Mar 30, 2017 9:43:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples has finished in 1,039 ms
+Mar 30, 2017 9:43:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager
+Mar 30, 2017 9:43:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager has finished in 252 ms
+Mar 30, 2017 9:43:36 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager
+Mar 30, 2017 9:43:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager has finished in 250 ms
+Mar 30, 2017 9:43:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT
+Mar 30, 2017 9:43:37 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT has finished in 105 ms
+Mar 30, 2017 9:43:37 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:37 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:37 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3124 ms
+Mar 30, 2017 9:43:52 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 30, 2017 9:43:52 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:52 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:52 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 30, 2017 9:43:52 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:52 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:52 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:52 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.76
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 9 2017 13:49:01 UTC
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.76.0
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Softwares\apache-tomcat-7.0.76\conf\logging.properties
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Softwares\apache-tomcat-7.0.76\endorsed
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Softwares\apache-tomcat-7.0.76\temp
+Mar 30, 2017 9:43:56 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.net.preferIPv4Stack=true
+Mar 30, 2017 9:43:56 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+Mar 30, 2017 9:43:56 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 30, 2017 9:43:57 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+Mar 30, 2017 9:43:57 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:57 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:57 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1484 ms
+Mar 30, 2017 9:43:57 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 30, 2017 9:43:57 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.76
+Mar 30, 2017 9:43:57 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml
+Mar 30, 2017 9:43:58 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 9:43:58 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml has finished in 847 ms
+Mar 30, 2017 9:43:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs
+Mar 30, 2017 9:43:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs has finished in 103 ms
+Mar 30, 2017 9:43:58 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples has finished in 418 ms
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager has finished in 87 ms
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager has finished in 81 ms
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT has finished in 49 ms
+Mar 30, 2017 9:43:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:43:59 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:43:59 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1675 ms
+Mar 30, 2017 9:45:29 AM org.apache.catalina.startup.HostConfig undeploy
+INFO: Undeploying context [/WebApplication4]
+Mar 30, 2017 9:49:36 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 30, 2017 9:49:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:49:36 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:49:36 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 30, 2017 9:49:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:49:36 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 9:49:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 9:49:37 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 10:07:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.76
+Mar 30, 2017 10:07:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Mar 9 2017 13:49:01 UTC
+Mar 30, 2017 10:07:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.76.0
+Mar 30, 2017 10:07:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Mar 30, 2017 10:07:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Mar 30, 2017 10:07:02 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_121\jre
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_121-b13
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=E:\Softwares\apache-tomcat-7.0.76\conf\logging.properties
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=E:\Softwares\apache-tomcat-7.0.76\endorsed
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=E:\Softwares\apache-tomcat-7.0.76
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=E:\Softwares\apache-tomcat-7.0.76\temp
+Mar 30, 2017 10:07:03 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.net.preferIPv4Stack=true
+Mar 30, 2017 10:07:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.2.12 using APR version 1.5.2.
+Mar 30, 2017 10:07:03 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Mar 30, 2017 10:07:04 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.2k  26 Jan 2017)
+Mar 30, 2017 10:07:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 10:07:04 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 10:07:04 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2702 ms
+Mar 30, 2017 10:07:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 30, 2017 10:07:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.76
+Mar 30, 2017 10:07:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs
+Mar 30, 2017 10:07:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\docs has finished in 578 ms
+Mar 30, 2017 10:07:04 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\examples has finished in 442 ms
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\host-manager has finished in 125 ms
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\manager has finished in 130 ms
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory E:\Softwares\apache-tomcat-7.0.76\webapps\ROOT has finished in 73 ms
+Mar 30, 2017 10:07:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 10:07:05 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 10:07:05 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1468 ms
+Mar 30, 2017 10:20:59 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication2.xml
+Mar 30, 2017 10:20:59 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication2.xml has finished in 298 ms
+Mar 30, 2017 10:20:59 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication2]] after start() had already been called. The second call will be ignored.
+Mar 30, 2017 10:21:48 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml
+Mar 30, 2017 10:21:49 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Mar 30, 2017 10:21:49 AM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor E:\Softwares\apache-tomcat-7.0.76\conf\Catalina\localhost\WebApplication4.xml has finished in 442 ms
+Mar 30, 2017 10:21:49 AM org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplication4]] after start() had already been called. The second call will be ignored.
+Mar 30, 2017 10:31:11 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 30, 2017 10:31:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 10:31:11 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 10:31:11 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 30, 2017 10:31:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 10:31:11 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Mar 30, 2017 10:31:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Mar 30, 2017 10:31:11 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

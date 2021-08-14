@@ -1,0 +1,135 @@
+package org.apache.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class changepassword_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html;charset=UTF-8");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<!DOCTYPE html>\n");
+      out.write("<html>\n");
+      out.write("<head>\n");
+      out.write("<title>Change password in jsp</title>\n");
+      out.write("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"></head>\n");
+      out.write("<body>\n");
+      out.write("<h2 align=\"center\"><strong>Please Change password </strong></h2>\n");
+      out.write("\n");
+      out.write("<script language=\"javascript\">\n");
+      out.write("function fncSubmit()\n");
+      out.write("{\n");
+      out.write("\n");
+      out.write("if(document.changepassword.OldPassword.value == \"\")\n");
+      out.write("{\n");
+      out.write("alert('Please input old password');\n");
+      out.write("document.changepassword.OldPassword.focus();\n");
+      out.write("return false;\n");
+      out.write("} \n");
+      out.write("\n");
+      out.write("if(document.changepassword.newpassword.value == \"\")\n");
+      out.write("{\n");
+      out.write("alert('Please input Password');\n");
+      out.write("document.changepassword.newpassword.focus(); \n");
+      out.write("return false;\n");
+      out.write("} \n");
+      out.write("\n");
+      out.write("if(document.changepassword.conpassword.value == \"\")\n");
+      out.write("{\n");
+      out.write("alert('Please input Confirm Password');\n");
+      out.write("document.changepassword.conpassword.focus(); \n");
+      out.write("return false;\n");
+      out.write("} \n");
+      out.write("\n");
+      out.write("if(document.changepassword.newpassword.value != document.changepassword.conpassword.value)\n");
+      out.write("{\n");
+      out.write("alert('Confirm Password Not Match');\n");
+      out.write("document.changepassword.conpassword.focus(); \n");
+      out.write("return false;\n");
+      out.write("} \n");
+      out.write("\n");
+      out.write("document.changepassword.submit();\n");
+      out.write("}\n");
+      out.write("</script>\n");
+      out.write("<form name=\"changepassword\" method=\"post\" action=\"process.jsp\" OnSubmit=\"return fncSubmit();\">\n");
+      out.write("\n");
+      out.write("<table border=\"1\" align=\"center\" bgcolor=\"#2B60DE\">\n");
+      out.write("\n");
+      out.write("<tr>\n");
+      out.write("<td>OLD PASSWORD</td>\n");
+      out.write("<TD><input name=\"OldPassword\" type=\"password\" id=\"OLDpwd\" size=\"20\"></td>\n");
+      out.write("</tr>\n");
+      out.write("<tr>\n");
+      out.write("<td>NewPassword</td>\n");
+      out.write("<td><input name=\"newpassword\" type=\"password\" id=\"newpassword\">\n");
+      out.write("</td>\n");
+      out.write("</tr>\n");
+      out.write("<tr>\n");
+      out.write("<td>Confirm Password</td>\n");
+      out.write("<td><input name=\"conpassword\" type=\"password\" id=\"conpassword\">\n");
+      out.write("</td>\n");
+      out.write("</tr>\n");
+      out.write("<tr>\n");
+      out.write("<td>&nbsp;</td>\n");
+      out.write("<td><input type=\"submit\" name=\"Submit\" value=\"Save\"></td>\n");
+      out.write("</tr>\n");
+      out.write("\n");
+      out.write("<tr>\n");
+      out.write("    <td>Username</td>\n");
+      out.write("    <td><input name=\"username\" type=\"text\" id=\"username\"></td>\n");
+      out.write("</tr>\n");
+      out.write("\n");
+      out.write("</table>\n");
+      out.write("</form>\n");
+      out.write("</body>\n");
+      out.write("</html>");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+}

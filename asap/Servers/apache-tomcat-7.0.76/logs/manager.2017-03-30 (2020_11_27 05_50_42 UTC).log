@@ -1,0 +1,122 @@
+Mar 30, 2017 8:43:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Mar 30, 2017 8:43:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Mar 30, 2017 8:43:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:43:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:43:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/Dell/AppData/Local/Temp/context6720156712738717548.xml'
+Mar 30, 2017 8:43:26 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/WebApplication4'
+Mar 30, 2017 8:44:11 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:44:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:44:16 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:45:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:46:09 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:46:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:46:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:51:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:51:33 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/WebApplication4'
+Mar 30, 2017 8:52:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:52:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 8:52:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/WebApplication4'
+Mar 30, 2017 9:16:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:16:01 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:18:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:19:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:22:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:22:00 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:24:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:24:23 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/WebApplication4'
+Mar 30, 2017 9:24:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:24:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:24:27 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/WebApplication4'
+Mar 30, 2017 9:24:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:24:46 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:25:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:25:12 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/WebApplication4'
+Mar 30, 2017 9:25:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:25:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:25:20 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/WebApplication4'
+Mar 30, 2017 9:25:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:25:40 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:45:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Mar 30, 2017 9:45:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Mar 30, 2017 9:45:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 9:45:28 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/WebApplication4'
+Mar 30, 2017 10:20:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+Mar 30, 2017 10:20:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+Mar 30, 2017 10:20:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:20:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:20:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/Dell/AppData/Local/Temp/context1014161441530336052.xml'
+Mar 30, 2017 10:20:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/WebApplication2'
+Mar 30, 2017 10:21:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:21:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:21:48 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/Dell/AppData/Local/Temp/context2835464423089922327.xml'
+Mar 30, 2017 10:21:49 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/WebApplication4'
+Mar 30, 2017 10:22:38 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:22:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:22:39 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:24:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:24:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:24:59 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:25:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+Mar 30, 2017 10:25:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
